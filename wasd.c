@@ -80,7 +80,7 @@ void loop() {
     }
 
     //servo test code
-    if (PestoLink.buttonHeld(1)) {
+    if (PestoLink.buttonHeld(0)) {
         aimServo.write(180);
     }
     else {

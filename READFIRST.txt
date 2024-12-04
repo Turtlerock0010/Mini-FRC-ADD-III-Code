@@ -1,9 +1,10 @@
 --Key Information--
-Version: 1
+Version: 2
 Push date: 12/2/2024
 Contributor: @Comandline
-language: C
-libraries: Alfredo_NoU2, PestoLink-Receive
+Language: C
+Libraries: Alfredo_NoU2, PestoLink-Receive
+Controller: https://pestol.ink
 
 --Things To Do Before Pushing Code To ESP32--
 1. follow the tutorial to the last detail https://alfredo-nou2.readthedocs.io/en/latest/robot_programming_tutorial_Pesto_Link.html#setup
@@ -25,3 +26,7 @@ libraries: Alfredo_NoU2, PestoLink-Receive
   - Joystick, uses PestoLink's joystick
   - WASD, uses PestoLink's mappable buttons
  NOTE: please don't combine both scripts they have everything in them
+
+--Version 2 Changelog--
+- The button 0 is used to test the servo
+- Pesto Link website is added to the Notes
