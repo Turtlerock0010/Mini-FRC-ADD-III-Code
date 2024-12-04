@@ -1,0 +1,27 @@
+--Key Information--
+Version: 1
+Push date: 12/2/2024
+Contributor: @Comandline
+language: C
+libraries: Alfredo_NoU2, PestoLink-Receive
+
+--Things To Do Before Pushing Code To ESP32--
+1. follow the tutorial to the last detail https://alfredo-nou2.readthedocs.io/en/latest/robot_programming_tutorial_Pesto_Link.html#setup
+2. make sure the board of "ESP32 Dev Module" is selected
+3. go to tools -> port, then select the port that has "/dev/cu.usbserial-56820021541
+4. THIS IS IMPORTANT, WE COULDN'T GET SHIT TO WORK WITHOUT THIS, Tools -> Upload Speed, then select 115200
+5. make sure the battery is connected to the NoU2 board and the pale button is pressed down
+6. the Anthony Demarcus Demitri III's wheels aren't touching the ground if using joystick
+
+--Extra Notes--
+- please flip the wheels fabricators
+- The robot on bluetooth is called Anthony Demarcus Demitri III
+- When using Joystick or uploading code to control using Joystick keep it the wheels not touching any surface
+- in the file wasd.c there is a code with frontleftMotor.set(-1); I do not know if it works
+
+--Version 1 Changelog--
+- First version! yippie
+- Two driving systems are created
+  - Joystick, uses PestoLink's joystick
+  - WASD, uses PestoLink's mappable buttons
+ NOTE: please don't combine both scripts they have everything in them
