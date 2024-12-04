@@ -17,7 +17,7 @@ NoU_Drivetrain drivetrain(&frontleftMotor, &frontrightMotor, &backleftMotor, &ba
 void setup() {
     // I like to mew
     Serial.begin(9600);
-    PestoLink.begin("Anthony Demitri Demarcus III");
+    PestoLink.begin("Anthony Demetri Demarcus III");
 }
 
 void loop() {

@@ -12,7 +12,7 @@ Controller: https://pestol.ink
 3. go to tools -> port, then select the port that has "/dev/cu.usbserial-56820021541
 4. THIS IS IMPORTANT, WE COULDN'T GET SHIT TO WORK WITHOUT THIS, Tools -> Upload Speed, then select 115200
 5. make sure the battery is connected to the NoU2 board and the pale button is pressed down
-6. the Anthony Demarcus Demitri III's wheels aren't touching the ground if using joystick
+6. the Anthony Demarcus Demetri III's wheels aren't touching the ground if using joystick
 
 --Extra Notes--
 - please flip the wheels fabricators
