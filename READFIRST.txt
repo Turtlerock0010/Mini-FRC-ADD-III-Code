@@ -1,6 +1,6 @@
 --Key Information--
-Version: 2
-Push date: 12/2/2024
+Version: 3
+Push date: 12/4/2024
 Contributor: @Comandline
 Language: C
 Libraries: Alfredo_NoU2, PestoLink-Receive
@@ -30,3 +30,7 @@ Controller: https://pestol.ink
 --Version 2 Changelog--
 - The button 0 is used to test the servo
 - Pesto Link website is added to the Notes
+
+--Version 3 Changelog--
+- Spelling Changes to the robot's name
+- Bluetooth fix added
