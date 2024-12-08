@@ -1,10 +1,12 @@
 --Key Information--
-Version: 3
-Push date: 12/4/2024
+Version: 4
+Push date: 12/8/2024
 Contributor: @Comandline
 Language: C
 Libraries: Alfredo_NoU2, PestoLink-Receive
 Controller: https://pestol.ink
+ESP32 Board: #2
+NoU2 Board: #3
 
 --Things To Do Before Pushing Code To ESP32--
 1. follow the tutorial to the last detail https://alfredo-nou2.readthedocs.io/en/latest/robot_programming_tutorial_Pesto_Link.html#setup
@@ -34,3 +36,15 @@ Controller: https://pestol.ink
 --Version 3 Changelog--
 - Spelling Changes to the robot's name
 - Bluetooth fix added
+
+--Version 4 Changelog--
+- Deletion of "bluetoothfix.c" file
+- Deletion of "wasd.c" file
+- Renamed "joystick.c" file to "main.c"
+- Movement system has been decided which is joystick controls on android
+- Defined the motors pickUpMotor and shooterMotor
+- Defined the servo aimServo
+- Button 2 activates pickUpMotor
+- Button 3 activates shooterMotor
+- New board tally for how much ESP32 and NoU2 boards we go through
+- Very big version indeed.

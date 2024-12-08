@@ -1,15 +1,21 @@
 //NOTE: copy and replace everything from the old code in the arduino IDE
 #include <Alfredo_NoU2.h>
 #include <PestoLink-Receive.h>
+#include <ArduinoBLE.h>
 
 //drive train motors init
 NoU_Motor frontleftMotor(1);
 NoU_Motor frontrightMotor(2);
-NoU_Motor backleftMotor(3);
-NoU_Motor backrightMotor(4);
+//wiring bs that fab doesn't want to fix
+NoU_Motor backleftMotor(4);
+NoU_Motor backrightMotor(3);
 
-//servos init
-NoU_Servo aimServo(1);
+//extra motors init
+NoU_Motor pickUpMotor(5);
+NoU_Motor shooterMotor(6);
+
+//servo motors init
+NoU_Motor aimServo(1);
 
 //drive train init
 NoU_Drivetrain drivetrain(&frontleftMotor, &frontrightMotor, &backleftMotor, &backrightMotor);
@@ -32,12 +38,20 @@ void loop() {
     // Make the robot drive
     drivetrain.arcadeDrive(throttle, rotation);
   
-    //servo test code
-    if (PestoLink.buttonHeld(1)) {
-        aimServo.write(180);
+    //Pickup Motor
+    if (PestoLink.buttonHeld(2)) {
+        pickUpMotor.set(1);
     }
     else {
-        aimServo.write(0);
+        pickUpMotor.set(0);
+    }
+
+    //Shooter Motor
+    if (PestoLink.buttonHeld(3)) {
+        shooterMotor.set(-1);
+    }
+    else {
+        shooterMotor.set(0);
     }
 
     PestoLink.update();
