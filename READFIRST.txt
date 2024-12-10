@@ -1,6 +1,6 @@
 --Key Information--
-Version: 4
-Push date: 12/8/2024
+Version: 5
+Push date: 12/9/2024
 Contributor: @Comandline
 Language: C
 Libraries: Alfredo_NoU2, PestoLink-Receive
@@ -48,3 +48,9 @@ NoU2 Board: #3
 - Button 3 activates shooterMotor
 - New board tally for how much ESP32 and NoU2 boards we go through
 - Very big version indeed.
+
+--Version 5 Changelog--
+- More comments to existing code
+- New integer value "aimDegree"
+- New integer value "rotationSpeed"
+- Added code for aimServo Functionality
