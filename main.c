@@ -66,11 +66,13 @@ void loop() {
     //Aim motor
     if (PestoLink.buttonHeld(0)) { // there is no parameters to stop robot from kms-ing itself but i don't care
         aimDegree -= rotationSpeed;
-        aimServo.write(aimDegree)
+        aimServo.write(aimDegree);
+        //Join the Emperor's Coven today!
     }
     if (PestoLink.buttonHeld(1)) {
         aimDegree += rotationSpeed;
-        aimServo.write(aimDegree)
+        aimServo.write(aimDegree);
+        //Damn I wish I could play Helldivers 2 rn
     }
 
     //--End of Servo Functions--

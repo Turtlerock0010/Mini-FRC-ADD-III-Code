@@ -1,5 +1,5 @@
 --Key Information--
-Version: 5
+Version: 6
 Push date: 12/9/2024
 Contributor: @Comandline
 Language: C
@@ -54,3 +54,9 @@ NoU2 Board: #3
 - New integer value "aimDegree"
 - New integer value "rotationSpeed"
 - Added code for aimServo Functionality
+ - Button 0 aims the servo down
+ - Button 1 aims the servo up
+
+--Version 6 Changelog--
+- More comments
+- Fixed faulty code with no semicolons
