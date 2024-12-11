@@ -60,3 +60,11 @@ NoU2 Board: #3
 --Version 6 Changelog--
 - More comments
 - Fixed faulty code with no semicolons
+
+--Version 7 Changelog--
+- Fixed pickUpMotor direction to match robot design
+- Changed the Bluetooth Low Energy baud rate from 9600 to 115200
+- Pushed possible fix to the aimServo not responding (Credit: @amitac)
+- Readied bot for Windows connection
+- Bring a windows laptop nerd so you can code
+- Readied bot for xbox controller connection
