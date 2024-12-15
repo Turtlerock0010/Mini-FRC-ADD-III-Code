@@ -1,6 +1,6 @@
 --Key Information--
-Version: 7
-Push date: 12/10/2024
+Version: 9
+Push date: 12/15/2024
 Contributor: @Comandline
 Language: C
 Libraries: Alfredo_NoU2, PestoLink-Receive
@@ -68,3 +68,39 @@ NoU2 Board: #3
 - Readied bot for Windows connection
 - Bring a windows laptop nerd so you can code
 - Readied bot for xbox controller connection
+
+--Version 8 Changelog--
+- Added limits to changes to aimDegree 
+- Fixed faulty code of changing the servo servo degree
+- Archived aimServo fix from @amitac
+- Changed the change speed of the degree from 1 to 0.1
+- Experimental 4th button made, initally a button combo
+- Changed and undo the baud rate from 9600 to 115200
+
+--Version 9 Changelog-- (Final Changelog)
+- Changed limits to aimDegree to match driver's needs
+- Added a button combo to allow for a full reversal of all shooting functions
+- Added a delay that makes the aimServo finally slower
+- Reversed throttle and rotation to allow for the robot to be driven backwards
+- Added quick access variables for quick changes
+- Last Version, Thanks For Watching! (Final Remarks Below)
+
+--Closing Remarks--
+This is really the end of this repository, isn't it? Well it is and I
+would like to provide some closing remarks. First of all, I am thankful
+of this opertunity of Mini FRC 10.5, and the team Pink Fluffy Unicorns
+for allowing me to code and express my true skills to the test. I would
+like to thank everyone who helped us get through the techinical
+difficulties with the ESP32 and NoU2, if it wasn't for them the robot
+would have been cooked to the highest degree. From this repository I have
+helped 2 other teams (also credited in them too) for code and had got
+help physically from those teams with their fab skills. Anyways closing
+this statement I am excited for Mini FRC 11 in summer and will use the
+skills I learned here to help code a better robot (and absolutely get
+some autos in.) so HYPE. Here is something I would do and is provide a
+closing sentence that would only makes sense to a specific fandom.
+Thanks To Them of Alfredo Systems and Terrorbytes I wouldn't have made
+the robot. I hope this repository will help me For The Future and beyond.
+Finally, keep Watching And Dreaming folks and I will see you next time.
+
+-@Commandline
