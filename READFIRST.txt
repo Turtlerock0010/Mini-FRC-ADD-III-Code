@@ -88,7 +88,7 @@ NoU2 Board: #3
 --Closing Remarks--
 This is really the end of this repository, isn't it? Well it is and I
 would like to provide some closing remarks. First of all, I am thankful
-of this opertunity of Mini FRC 10.5, and the team Pink Fluffy Unicorns
+of this opportunity of Mini FRC 10.5, and the team Pink Fluffy Unicorns
 for allowing me to code and express my true skills to the test. I would
 like to thank everyone who helped us get through the techinical
 difficulties with the ESP32 and NoU2, if it wasn't for them the robot
@@ -99,8 +99,9 @@ this statement I am excited for Mini FRC 11 in summer and will use the
 skills I learned here to help code a better robot (and absolutely get
 some autos in.) so HYPE. Here is something I would do and is provide a
 closing sentence that would only makes sense to a specific fandom.
-Thanks To Them of Alfredo Systems and Terrorbytes I wouldn't have made
-the robot. I hope this repository will help me For The Future and beyond.
-Finally, keep Watching And Dreaming folks and I will see you next time.
+Thanks To Them of Alfredo Systems and Terrorbytes, I wouldn't have made
+the robot if it weren't for them. I hope this repository will help me For
+The Future and beyond. Finally, keep Watching And Dreaming folks, and I 
+will see you next time.
 
 -@Commandline
